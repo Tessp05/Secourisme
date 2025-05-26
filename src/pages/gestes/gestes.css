@@ -1,0 +1,57 @@
+/* Style du titre principal (h1) */
+.titre {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Style de la section entête avec le paragraphe */
+.enTete {
+    margin-bottom: 40px;
+}
+
+.enTete p {
+    text-align: justify;
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+/* Style du titre h2 */
+.presentation h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/* Organisation générale de la section présentation */
+.presentation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Conteneur pour les articles qui seront alignés sur deux lignes */
+.articles-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 colonnes */
+    grid-template-rows: repeat(2, auto);   /* 2 lignes */
+    gap: 30px;
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.article img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.article h5 {
+    text-align: center;
+    margin-top: 10px;
+}

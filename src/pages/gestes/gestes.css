@@ -1,10 +1,9 @@
-/* Style du titre principal (h1) */
 .titre {
     text-align: center;
     margin-bottom: 30px;
 }
 
-/* Style de la section entête avec le paragraphe */
+
 .enTete {
     margin-bottom: 40px;
 }
@@ -15,20 +14,20 @@
     margin: 0 auto;
 }
 
-/* Style du titre h2 */
+
 .presentation h2 {
     text-align: center;
     margin-bottom: 40px;
 }
 
-/* Organisation générale de la section présentation */
+
 .presentation {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-/* Conteneur pour les articles qui seront alignés sur deux lignes */
+
 .articles-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr); /* 3 colonnes */
@@ -56,7 +55,7 @@
     margin-top: 10px;
 }
 
-/* Styles pour la section questionnaire */
+
 .questionnaire-section {
     margin: 50px auto;
     max-width: 800px;
@@ -174,7 +173,7 @@
     font-weight: bold;
 }
 
-/* Responsive design for smaller screens */
+
 @media (max-width: 768px) {
     .questionnaire-section {
         padding: 10px;

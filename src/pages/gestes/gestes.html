@@ -5,6 +5,8 @@
         <meta charset="UTF-8">
         <link rel="stylesheet" href="../accueil/style.css">
         <link rel="stylesheet" href="../gestes/gestes.css">
+
+        <script type="application/javascript" src="../gestes/questionnaire.js"></script>
     </head>
     <body>
         <header>
@@ -30,20 +32,20 @@
             <h2>Les Gestes De Premiers Secours</h2>
             <div class="articles-container">
                 <div class="article">
-                    <img src="../image/image11.jpg" alt="massage cardiaque">
-                    <h5>Le massage cardiaque</h5>
+                    <img src="../image/image_remplacement.png" alt="massage cardiaque">
+                    <a href="https://www.youtube.com/shorts/LU8DEHy4vOY"> <h5>Le massage cardiaque</h5> </a>
                 </div>
                 <div class="article">
                     <img src="../image/image12.jpg" alt="Piqûres">
-                    <h5>Les piqûres</h5>
+                    <a href="https://www.youtube.com/shorts/Gpm-urm_bTc"> <h5>Les piqûres</h5> </a>
                 </div>
                 <div class="article">
-                    <img src="../image/image13.jpg" alt="Etouffement">
-                    <h5>L'étouffement</h5>
+                    <img src="../image/image_finale.png" alt="Etouffement">
+                    <a href="https://www.youtube.com/watch?v=4LOuLNnCqww&ab_channel=Groupama"> <h5>L'étouffement</h5> </a>
                 </div>
                 <div class="article">
                     <img src="../image/image14.jpg" alt="PLS">
-                    <h5>La PLS</h5>
+                    <a href="https://www.youtube.com/watch?v=Eak9JO1zO2U&ab_channel=ProtectionCivileParisSeine"><h5>La PLS</h5></a>
                 </div>
                 <div class="article">
                     <img src="../image/image15.jpg" alt="L'hémorragie">
@@ -55,8 +57,21 @@
                 </div>
             </div>
         </section>
+        <section class="questionnaire-section">
+            <h2>Testez vos connaissances</h2>
+            <div id="questionnaire-container">
+                <div id="question-display"></div>
+                <div id="options-container"></div>
+                <div id="feedback-container"></div>
+                <div id="controls">
+                    <button id="submit-btn" class="quiz-btn">Valider</button>
+                    <button id="next-btn" class="quiz-btn" style="display: none;">Question suivante</button>
+                    <div id="score-display"></div>
+                </div>
+            </div>
+        </section>
         <footer>
             <p>LesGestesQuiSauvent</p>
-            <a href="./apropos.html">A propos</ahref></a>
+            <a href="../apropos/apropos.html">A propos</a>
         </footer>
     </body>

@@ -55,3 +55,140 @@
     text-align: center;
     margin-top: 10px;
 }
+
+/* Styles pour la section questionnaire */
+.questionnaire-section {
+    margin: 50px auto;
+    max-width: 800px;
+    padding: 20px;
+}
+
+.questionnaire-section h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#questionnaire-container {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 25px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#question-display {
+    margin-bottom: 20px;
+}
+
+#question-display h3 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.question-text {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+#options-container {
+    margin-bottom: 25px;
+}
+
+.option {
+    margin-bottom: 12px;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.2s;
+}
+
+.option:hover {
+    background-color: #f0f0f0;
+}
+
+.option input[type="radio"] {
+    margin-right: 10px;
+}
+
+.option label {
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#feedback-container {
+    margin: 20px 0;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.correct {
+    color: #2e7d32;
+    background-color: #e8f5e9;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.incorrect {
+    color: #c62828;
+    background-color: #ffebee;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.warning {
+    color: #f57c00;
+    background-color: #fff3e0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.quiz-complete {
+    font-weight: bold;
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+#controls {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quiz-btn {
+    background-color: #1976d2;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 10px 0;
+    transition: background-color 0.3s;
+}
+
+.quiz-btn:hover {
+    background-color: #1565c0;
+}
+
+#score-display {
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+    .questionnaire-section {
+        padding: 10px;
+    }
+
+    #questionnaire-container {
+        padding: 15px;
+    }
+
+    .question-text {
+        font-size: 16px;
+    }
+
+    .option label {
+        font-size: 14px;
+    }
+}

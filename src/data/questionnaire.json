@@ -1,0 +1,52 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Que faut-il vérifier avant de mettre quelqu'un en PLS ?",
+      "options": [
+        "Si la personne est consciente",
+        "Si la personne respire",
+        "Si la personne a des blessures visibles",
+        "Si la personne peut parler"
+      ],
+      "correctAnswer": "Si la personne respire",
+      "explanation": "Avant de mettre une personne en Position Latérale de Sécurité (PLS), il faut vérifier qu'elle respire mais qu'elle est inconsciente. Si la personne ne respire pas, un massage cardiaque est nécessaire."
+    },
+    {
+      "id": 2,
+      "question": "Combien de tapes dans le dos pour une personne qui s'étouffe ?",
+      "options": [
+        "3 tapes",
+        "5 tapes",
+        "7 tapes",
+        "10 tapes"
+      ],
+      "correctAnswer": "5 tapes",
+      "explanation": "Le protocole recommande d'effectuer 5 tapes vigoureuses dans le dos entre les omoplates. Si cela ne suffit pas, on passe aux compressions abdominales (manœuvre de Heimlich)."
+    },
+    {
+      "id": 3,
+      "question": "Combien de compressions et d'insufflations pour un massage cardiaque ?",
+      "options": [
+        "15 compressions, 1 insufflation",
+        "15 compressions, 2 insufflations",
+        "30 compressions, 1 insufflation",
+        "30 compressions, 2 insufflations"
+      ],
+      "correctAnswer": "30 compressions, 2 insufflations",
+      "explanation": "Le ratio standard pour la réanimation cardio-pulmonaire (RCP) est de 30 compressions thoraciques suivies de 2 insufflations, à répéter jusqu'à l'arrivée des secours ou la reprise d'une respiration normale."
+    },
+    {
+      "id": 4,
+      "question": "Que faire en cas d'hémorragie ?",
+      "options": [
+        "Appliquer du froid sur la plaie",
+        "Faire un garrot immédiatement",
+        "Comprimer directement la plaie",
+        "Nettoyer la plaie avec de l'eau"
+      ],
+      "correctAnswer": "Comprimer directement la plaie",
+      "explanation": "En cas d'hémorragie, la première action est de comprimer directement la plaie avec un tissu propre ou un pansement compressif. Maintenir la compression jusqu'à l'arrivée des secours. Le garrot n'est utilisé qu'en dernier recours."
+    }
+  ]
+}
